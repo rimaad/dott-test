@@ -1,1 +1,1 @@
-Dott-test
+Dott-test iOS application
