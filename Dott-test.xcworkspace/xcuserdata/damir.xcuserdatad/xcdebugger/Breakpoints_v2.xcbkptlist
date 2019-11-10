@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E7B43BFF-59FA-4DA9-B515-17C93E4AF5B8"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6C4CC26-8CFF-465F-A41B-AC625131F251"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dott-test/View/MapViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "MapViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F6C4CC26-8CFF-465F-A41B-AC625131F251 - 546b9750047f7a8e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dott_test.MapViewController.venuesList.getter : RxRelay.BehaviorRelay&lt;Swift.Optional&lt;Dott_test.Response&gt;&gt;"
+                  moduleName = "Dott-test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/damir/Documents/Projects/Dott-test/Dott-test/View/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "F6C4CC26-8CFF-465F-A41B-AC625131F251 - add24f16dbd842b2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dott_test.MapViewController.venuesList.setter : RxRelay.BehaviorRelay&lt;Swift.Optional&lt;Dott_test.Response&gt;&gt;"
+                  moduleName = "Dott-test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/damir/Documents/Projects/Dott-test/Dott-test/View/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "F6C4CC26-8CFF-465F-A41B-AC625131F251 - 578e950651b2d083"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dott_test.MapViewController.venuesList.modify : RxRelay.BehaviorRelay&lt;Swift.Optional&lt;Dott_test.Response&gt;&gt;"
+                  moduleName = "Dott-test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/damir/Documents/Projects/Dott-test/Dott-test/View/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "F6C4CC26-8CFF-465F-A41B-AC625131F251 - a9387fd15038e554"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dott_test.MapViewController.venuesList.modify : RxRelay.BehaviorRelay&lt;Swift.Optional&lt;Dott_test.Response&gt;&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Dott-test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/damir/Documents/Projects/Dott-test/Dott-test/View/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "F6C4CC26-8CFF-465F-A41B-AC625131F251 - e7ec5860b622b7b4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dott_test.MapViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Dott_test.MapViewController"
+                  moduleName = "Dott-test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/damir/Documents/Projects/Dott-test/Dott-test/View/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "462">
+               </Location>
+               <Location
+                  uuid = "F6C4CC26-8CFF-465F-A41B-AC625131F251 - a2b2366df25e65ae"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dott_test.MapViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Dott_test.MapViewController&gt;"
+                  moduleName = "Dott-test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/damir/Documents/Projects/Dott-test/Dott-test/View/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "399">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EFBCFF23-CACE-4707-93E0-50BEA17B4D20"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dott-test/ViewModel/VenueViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "init(apiClient:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5917ECD-47BD-46F3-AA13-BC21122C40AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dott-test/View/MapViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "setupRx()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F5917ECD-47BD-46F3-AA13-BC21122C40AD - c0dfb30edc60f8f2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dott_test.MapViewController.setupRx() -&gt; ()"
+                  moduleName = "Dott-test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/damir/Documents/Projects/Dott-test/Dott-test/View/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "55">
+               </Location>
+               <Location
+                  uuid = "F5917ECD-47BD-46F3-AA13-BC21122C40AD - ff311dcd52ef3a06"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Dott_test.Response&gt;) -&gt; () in Dott_test.MapViewController.setupRx() -&gt; ()"
+                  moduleName = "Dott-test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/damir/Documents/Projects/Dott-test/Dott-test/View/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "855C1328-509A-4FA8-88FF-B28C50F8F7E4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dott-test/ViewModel/VenueViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "init(apiClient:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "855C1328-509A-4FA8-88FF-B28C50F8F7E4 - ad814c4c63908b42"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dott_test.VenueViewModel.init(apiClient: Dott_test.ApiClient) -&gt; Dott_test.VenueViewModel"
+                  moduleName = "Dott-test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/damir/Documents/Projects/Dott-test/Dott-test/ViewModel/VenueViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "775">
+               </Location>
+               <Location
+                  uuid = "855C1328-509A-4FA8-88FF-B28C50F8F7E4 - 1b2aa1c4b65d4f1c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;__C.CLLocation&gt;) -&gt; RxSwift.Observable&lt;Dott_test.Response&gt; in Dott_test.VenueViewModel.init(apiClient: Dott_test.ApiClient) -&gt; Dott_test.VenueViewModel"
+                  moduleName = "Dott-test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/damir/Documents/Projects/Dott-test/Dott-test/ViewModel/VenueViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "87">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C279736-1AEE-46C0-86F5-8EA70BC397D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dott-test/Service/ApiClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getVenues(location:timeStamp:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5157BE1D-C50C-47C3-B522-D3A948A74A16"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dott-test/ViewModel/VenueViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "init(apiClient:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C33E1625-37F3-4BEB-BF84-04D3F92F37CF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dott-test/View/MapViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "setupRx()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C33E1625-37F3-4BEB-BF84-04D3F92F37CF - c0dfb30edc60f8f2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dott_test.MapViewController.setupRx() -&gt; ()"
+                  moduleName = "Dott-test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/damir/Documents/Projects/Dott-test/Dott-test/View/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "55">
+               </Location>
+               <Location
+                  uuid = "C33E1625-37F3-4BEB-BF84-04D3F92F37CF - ff311dcd52ef3a06"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Dott_test.Response&gt;) -&gt; () in Dott_test.MapViewController.setupRx() -&gt; ()"
+                  moduleName = "Dott-test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/damir/Documents/Projects/Dott-test/Dott-test/View/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "894D0C89-2B14-490C-8385-0CDC85F25CE9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dott-test/Service/ApiClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "getVenues(location:timeStamp:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C870C37-95B7-4274-8B5A-DDE7BD25CBC1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dott-test/ViewModel/VenueViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "drawMarkes(mapView:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81E26AEF-3396-4EC6-8306-DB907AEBA887"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dott-test/Service/ApiClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getVenues(location:timeStamp:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "81E26AEF-3396-4EC6-8306-DB907AEBA887 - 7b655410791414a1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.AnyObserver&lt;Dott_test.Response&gt;) -&gt; RxSwift.Disposable in Dott_test.ApiClient.getVenues(location: __C.CLLocation, timeStamp: Swift.String) -&gt; RxSwift.Observable&lt;Dott_test.Response&gt;"
+                  moduleName = "Dott-test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/damir/Documents/Projects/Dott-test/Dott-test/Service/ApiClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1654">
+               </Location>
+               <Location
+                  uuid = "81E26AEF-3396-4EC6-8306-DB907AEBA887 - cd1df3461727aace"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any, Alamofire.AFError&gt;) -&gt; () in closure #1 (RxSwift.AnyObserver&lt;Dott_test.Response&gt;) -&gt; RxSwift.Disposable in Dott_test.ApiClient.getVenues(location: __C.CLLocation, timeStamp: Swift.String) -&gt; RxSwift.Observable&lt;Dott_test.Response&gt;"
+                  moduleName = "Dott-test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/damir/Documents/Projects/Dott-test/Dott-test/Service/ApiClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FBEB593D-0EDB-4820-8465-F2984AEE446F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dott-test/ViewController/MapViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "mapView(_:markerInfoWindow:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52F49531-BED1-4397-B185-275B66C76B2B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dott-test/ViewController/MapViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "mapView(_:didTap:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
