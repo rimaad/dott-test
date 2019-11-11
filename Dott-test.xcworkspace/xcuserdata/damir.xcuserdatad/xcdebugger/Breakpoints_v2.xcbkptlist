@@ -122,8 +122,8 @@
             filePath = "Dott-test/ViewModel/VenueViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "init(apiClient:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -179,54 +179,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "855C1328-509A-4FA8-88FF-B28C50F8F7E4"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Dott-test/ViewModel/VenueViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "init(apiClient:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "855C1328-509A-4FA8-88FF-B28C50F8F7E4 - ad814c4c63908b42"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Dott_test.VenueViewModel.init(apiClient: Dott_test.ApiClient) -&gt; Dott_test.VenueViewModel"
-                  moduleName = "Dott-test"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/damir/Documents/Projects/Dott-test/Dott-test/ViewModel/VenueViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "44"
-                  endingLineNumber = "44"
-                  offsetFromSymbolStart = "775">
-               </Location>
-               <Location
-                  uuid = "855C1328-509A-4FA8-88FF-B28C50F8F7E4 - 1b2aa1c4b65d4f1c"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Optional&lt;__C.CLLocation&gt;) -&gt; RxSwift.Observable&lt;Dott_test.Response&gt; in Dott_test.VenueViewModel.init(apiClient: Dott_test.ApiClient) -&gt; Dott_test.VenueViewModel"
-                  moduleName = "Dott-test"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/damir/Documents/Projects/Dott-test/Dott-test/ViewModel/VenueViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "45"
-                  endingLineNumber = "45"
-                  offsetFromSymbolStart = "87">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "6C279736-1AEE-46C0-86F5-8EA70BC397D1"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -250,8 +202,8 @@
             filePath = "Dott-test/ViewModel/VenueViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "init(apiClient:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -330,8 +282,8 @@
             filePath = "Dott-test/ViewModel/VenueViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "drawMarkes(mapView:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -394,9 +346,9 @@
             filePath = "Dott-test/ViewController/MapViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "mapView(_:markerInfoWindow:)"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "mapView(_:didTap:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -410,9 +362,25 @@
             filePath = "Dott-test/ViewController/MapViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "mapView(_:didTap:)"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4EB81500-372F-40A7-8DE8-27A717BC196C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dott-test/ViewController/MapViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "setupRx()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

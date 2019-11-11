@@ -14,7 +14,7 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 import Foundation
 struct Venue : Codable {
 	let id : String?
-	let name : String?
+	var name : String?
 	let location : Location?
 	let categories : [Categories]?
 	let referralId : String?

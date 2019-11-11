@@ -10,6 +10,5 @@ import Foundation
 import GoogleMaps
 
 class  MapView: GMSMapView {
-    
   
 }

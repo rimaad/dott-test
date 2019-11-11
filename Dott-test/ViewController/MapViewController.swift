@@ -19,6 +19,8 @@ class MapViewController: UIViewController,GMSMapViewDelegate {
     let disposeBag = DisposeBag()
     var timeStamp : String!
     
+    var currentZoomLevel : Float = Float()
+    
    var tappedMarker : GMSMarker?
    var customInfoWindow : CustomInfoWindow = CustomInfoWindow()
    var venuesList : BehaviorRelay<Response?> = BehaviorRelay(value: nil)
@@ -32,8 +34,11 @@ class MapViewController: UIViewController,GMSMapViewDelegate {
         setupRx()
         self.tappedMarker = GMSMarker()
         customInfoWindow = customInfoWindow.loadView()
+        
         mapView.delegate = self
         self.view = mapView
+        mapView.setMinZoom(9, maxZoom: mapView.maxZoom)
+        currentZoomLevel  = 12
     }
     
 
@@ -46,7 +51,7 @@ class MapViewController: UIViewController,GMSMapViewDelegate {
         customInfoWindow.moreInfo.text = marker.snippet
      return self.customInfoWindow
     }
-  
+
        func setupRx() {
         
     viewModel.venuesList.subscribe(onNext:{
@@ -55,8 +60,11 @@ class MapViewController: UIViewController,GMSMapViewDelegate {
         }
         }).disposed(by:disposeBag)
     }
-
     
+    func mapView(_ mapView: GMSMapView, didChange position: GMSCameraPosition) {
+            
+       }
+     
     func centerMe(location:CLLocation) {
         mapView.camera = GMSCameraPosition.camera(withLatitude: location.coordinate.latitude, longitude: location.coordinate.longitude, zoom: 9)
     }

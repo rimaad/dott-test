@@ -34,7 +34,7 @@ class ApiClient : ApiClientProtocol {
         return Observable.create{ observer in
             let long = location.coordinate.longitude.description
             let lat = location.coordinate.latitude.description
-            AF.request(self.url + "&ll=\(lat),\(long)" + "&v=\(timeStamp)")
+            AF.request(self.url + "&ll=\(lat),\(long)" + "&v=\(timeStamp)"+"&radius=5000")
                .validate()
                   .responseJSON { response in
                       switch response.result {

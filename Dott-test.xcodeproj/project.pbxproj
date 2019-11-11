@@ -31,6 +31,8 @@
 		26AB049123789A460082EAD6 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AB049023789A450082EAD6 /* DateExtension.swift */; };
 		26AB049323789F080082EAD6 /* MarkerInfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26AB049223789F080082EAD6 /* MarkerInfoWindow.xib */; };
 		26AB049523789F730082EAD6 /* CustomInfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AB049423789F730082EAD6 /* CustomInfoWindow.swift */; };
+		26AB04972378D2BB0082EAD6 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AB04962378D2BB0082EAD6 /* StringExtension.swift */; };
+		26AB04992378E4250082EAD6 /* ResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AB04982378E4250082EAD6 /* ResponseTests.swift */; };
 		E16A3F56E9A9FE4F87A760C6 /* Pods_Dott_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8C0D7E93C8EDD84609660E /* Pods_Dott_test.framework */; };
 		EF895E7E98753B01C0257D26 /* Pods_Dott_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3CDBAA783A3A1AA254B1CB /* Pods_Dott_testTests.framework */; };
 /* End PBXBuildFile section */
@@ -83,6 +85,8 @@
 		26AB049023789A450082EAD6 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		26AB049223789F080082EAD6 /* MarkerInfoWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarkerInfoWindow.xib; sourceTree = "<group>"; };
 		26AB049423789F730082EAD6 /* CustomInfoWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInfoWindow.swift; sourceTree = "<group>"; };
+		26AB04962378D2BB0082EAD6 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		26AB04982378E4250082EAD6 /* ResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseTests.swift; sourceTree = "<group>"; };
 		3B8C0D7E93C8EDD84609660E /* Pods_Dott_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dott_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4325FAF3C89E139C01EFD48E /* Pods-Dott-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dott-testTests.release.xcconfig"; path = "Target Support Files/Pods-Dott-testTests/Pods-Dott-testTests.release.xcconfig"; sourceTree = "<group>"; };
 		5F3AE7B9EBED06386D550B6B /* Pods-Dott-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dott-test.debug.xcconfig"; path = "Target Support Files/Pods-Dott-test/Pods-Dott-test.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				26AB049023789A450082EAD6 /* DateExtension.swift */,
+				26AB04962378D2BB0082EAD6 /* StringExtension.swift */,
 			);
 			path = Exentsions;
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				26970ED92375EF3800BE6961 /* Dott_testTests.swift */,
+				26AB04982378E4250082EAD6 /* ResponseTests.swift */,
 				26970EDB2375EF3800BE6961 /* Info.plist */,
 			);
 			path = "Dott-testTests";
@@ -533,6 +539,7 @@
 				2644E3442376033800C94D95 /* Environments.swift in Sources */,
 				26970EC22375EF3200BE6961 /* SceneDelegate.swift in Sources */,
 				2644E3342375FBC700C94D95 /* ApiClient.swift in Sources */,
+				26AB04972378D2BB0082EAD6 /* StringExtension.swift in Sources */,
 				26AB049523789F730082EAD6 /* CustomInfoWindow.swift in Sources */,
 				268782C22376CB47009CA443 /* MapViewController.swift in Sources */,
 			);
@@ -542,6 +549,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26AB04992378E4250082EAD6 /* ResponseTests.swift in Sources */,
 				26970EDA2375EF3800BE6961 /* Dott_testTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
