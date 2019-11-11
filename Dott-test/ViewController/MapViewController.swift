@@ -37,8 +37,8 @@
             
             mapView.delegate = self
             self.view = mapView
-            mapView.setMinZoom(9, maxZoom: mapView.maxZoom)
-            currentZoomLevel  = 12
+           // mapView.setMinZoom(9, maxZoom: mapView.maxZoom)
+            
         }
         
         
@@ -46,14 +46,8 @@
             return false
         }
         
-        func mapView(_ mapView: GMSMapView, markerInfoWindow marker: GMSMarker) -> UIView? {
-            customInfoWindow.titleRestaurant.text = marker.title
-            customInfoWindow.moreInfo.text = marker.snippet
-            return self.customInfoWindow
-        }
         
         func setupRx() {
-            
             viewModel.venuesList.subscribe(onNext:{
                 if (($0?.response.venues.count) != nil) {
                     self.viewModel.drawMarkes(mapView: self.mapView)

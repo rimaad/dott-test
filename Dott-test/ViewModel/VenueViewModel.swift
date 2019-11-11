@@ -19,10 +19,12 @@ class VenueViewModel   {
     let locationManager : CLLocationManager = CLLocationManager()
     public let venuesList : BehaviorRelay<Response?> = BehaviorRelay(value: nil)
     var radius : String = "5000"
+    var customInfoWindow : CustomInfoWindow = CustomInfoWindow()
+    
     var currentZoom : Float = Float()
     init(apiClient: ApiClient = ApiClient()) {
         locationManager.requestAlwaysAuthorization()
-        locationManager.startUpdatingHeading()
+        locationManager.startUpdatingLocation()
         locationManager.rx
             .location
             .filter{ $0 != nil }
@@ -43,7 +45,7 @@ class VenueViewModel   {
             
             // Drawing markers on the map
             
-            mapView.camera = GMSCameraPosition.camera(withLatitude: (locationManager.location?.coordinate.latitude)!, longitude: (locationManager.location?.coordinate.longitude)!, zoom: 12)
+            mapView.camera = GMSCameraPosition.camera(withLatitude: (locationManager.location?.coordinate.latitude)!, longitude: (locationManager.location?.coordinate.longitude)!, zoom: currentZoom)
             
             let lat = restaurant.location?.lat as! CLLocationDegrees
             let long = restaurant.location?.lng as! CLLocationDegrees
@@ -56,6 +58,7 @@ class VenueViewModel   {
             // Listening for every change on position on map
             mapView.rx.didChange.asDriver()
                 .drive(onNext: {
+                    self.currentZoom = $0.zoom
                     if ($0.zoom < 11 && self.radius != "20000"){
                         self.radius = "20000"
                         self.apiClient.getVenues(location: self.locationManager.location!, timeStamp: Date().toDate(withFormat: "yyyyMMdd"),radius: self.radius).subscribe(onNext:{[weak self] response in
@@ -64,6 +67,13 @@ class VenueViewModel   {
                     }
                     print("Did change position: \($0)") })
                 .disposed(by: disposeBag)
+        }
+        
+        mapView.rx.handleMarkerInfoWindow {marker in
+            self.customInfoWindow = self.customInfoWindow.loadView()
+            self.customInfoWindow.titleRestaurant.text = marker.title
+            self.customInfoWindow.moreInfo.text = marker.snippet
+            return self.customInfoWindow
         }
     }
 }
