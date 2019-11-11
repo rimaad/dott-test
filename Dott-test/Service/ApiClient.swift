@@ -14,7 +14,7 @@ import CoreLocation
 
 
 protocol ApiClientProtocol {
-    func getVenues(location:CLLocation,timeStamp:String) -> Observable<Response>
+    func getVenues(location:CLLocation,timeStamp:String,radius:String) -> Observable<Response>
 }
 
 class ApiClient : ApiClientProtocol {
@@ -30,11 +30,11 @@ class ApiClient : ApiClientProtocol {
    
     let url = Environments.VenuesUrl + "&categoryId=4d4b7105d754a06374d81259"
     
-    func getVenues(location:CLLocation,timeStamp:String) -> Observable<Response> {
+    func getVenues(location:CLLocation,timeStamp:String,radius:String) -> Observable<Response> {
         return Observable.create{ observer in
             let long = location.coordinate.longitude.description
             let lat = location.coordinate.latitude.description
-            AF.request(self.url + "&ll=\(lat),\(long)" + "&v=\(timeStamp)"+"&radius=5000")
+            AF.request(self.url + "&ll=\(lat),\(long)" + "&v=\(timeStamp)"+"&radius=\(radius)")
                .validate()
                   .responseJSON { response in
                       switch response.result {

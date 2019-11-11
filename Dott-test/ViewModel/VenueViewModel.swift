@@ -11,13 +11,15 @@ import RxSwift
 import RxCocoa
 import CoreLocation
 import GoogleMaps
-
+import RxGoogleMaps
 class VenueViewModel   {
     
     let apiClient : ApiClient = ApiClient()
     let disposeBag = DisposeBag()
     let locationManager : CLLocationManager = CLLocationManager()
      public let venuesList : BehaviorRelay<Response?> = BehaviorRelay(value: nil)
+    var radius : String = "5000"
+    var currentZoom : Float = Float()
     init(apiClient: ApiClient = ApiClient()) {
         locationManager.requestAlwaysAuthorization()
         locationManager.startUpdatingHeading()
@@ -25,12 +27,13 @@ class VenueViewModel   {
         .location
         .filter{ $0 != nil }
         .flatMap { location -> Observable<Response> in
-            return apiClient.getVenues(location: location!, timeStamp: Date().toDate(withFormat: "yyyyMMdd"))
+            return apiClient.getVenues(location: location!, timeStamp: Date().toDate(withFormat: "yyyyMMdd"), radius: self.radius)
         }.subscribe(onNext: {[weak self] response in
             self?.venuesList.accept(response)
             //self!.locationManager.stopUpdatingLocation()
         }).disposed(by: disposeBag)
-       
+        
+        currentZoom = 9
     }
     
     
@@ -48,6 +51,18 @@ class VenueViewModel   {
             marker.snippet = restaurant.location?.formattedAddress?.joined(separator: "-")
                 marker.map = mapView
             
+        
+            mapView.rx.didChange.asDriver()
+                .drive(onNext: {
+                    if ($0.zoom < 11 && self.radius != "20000"){
+                        self.radius = "20000"
+                        self.apiClient.getVenues(location: self.locationManager.location!, timeStamp: Date().toDate(withFormat: "yyyyMMdd"),radius: self.radius).subscribe(onNext:{[weak self] response in
+                            self?.venuesList.accept(response)
+                        }).disposed(by: self.disposeBag)
+                    }
+                print("Did change position: \($0)") })
+            .disposed(by: disposeBag)
+    
         }
     }
 }

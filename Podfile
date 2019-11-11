@@ -8,6 +8,7 @@ target 'Dott-test' do
     pod 'GoogleMaps'
     pod 'RxGoogleMaps'
     pod 'RxCoreLocation', '~> 1.4'
+    pod 'RxGoogleMaps'
 end
 
 # RxTest and RxBlocking make the most sense in the context of unit/integration tests
@@ -17,4 +18,5 @@ target 'Dott-testTests' do
     pod 'Alamofire', '~> 5.0.0-rc.3'
     pod 'GoogleMaps'
     pod 'RxCoreLocation', '~> 1.4'
+    pod 'RxGoogleMaps'
 end
