@@ -10,8 +10,8 @@ import Foundation
 
 
 extension  Float {
- 
-  
+    
+    
     func calculateRadius(withZoomLevel level:Float) -> NSNumber {
         
         switch level {
@@ -20,10 +20,10 @@ extension  Float {
         case 12:
             return 15000
         case ..<9:
-           return 10000
+            return 10000
         default:
             return 20000
-            }
         }
     }
+}
 

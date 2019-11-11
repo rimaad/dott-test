@@ -12,7 +12,6 @@ struct Response: Codable {
     let response : Venues
 }
 
-
  struct Venues : Codable {
     let venues : [Venue]
 }

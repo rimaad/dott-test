@@ -22,6 +22,8 @@ class CustomInfoWindow : UIView {
         super .init(coder: aDecoder)
     }
     
+    // Loading custom view for GMS Marker in window
+    
     func loadView() -> CustomInfoWindow {
         let customInfoWindow = Bundle.main.loadNibNamed("MarkerInfoWindow", owner: self, options: nil)?[0] as! CustomInfoWindow
         customInfoWindow.layer.cornerRadius = 8

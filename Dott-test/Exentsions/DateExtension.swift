@@ -10,10 +10,10 @@ import Foundation
 
 
 extension Date {
-  func toDate(withFormat format: String = "yyyyMMdd") -> String {
-    let df = DateFormatter()
-    df.dateFormat = format
-    let now =  df.string(from:self)
-    return now
-  }
+    func toDate(withFormat format: String = "yyyyMMdd") -> String {
+        let df = DateFormatter()
+        df.dateFormat = format
+        let now =  df.string(from:self)
+        return now
+    }
 }
